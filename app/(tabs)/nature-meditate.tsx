@@ -48,7 +48,7 @@ const NatureMeditate = () => {
                     )}
                     keyExtractor={(item) => item.id.toString()}
                     showsVerticalScrollIndicator={false}
-                    className='mb-20'/>
+                    className='mb-6'/>
                 </View>
             </AppGradient>
             
