@@ -20,10 +20,10 @@ export default function App() {
                 <AppGradient colors={["rgba(0, 0, 0, 0.4)", "rgba(0, 0, 0, 0.8)"]}>
                     <SafeAreaView className="flex-1 px-1 justify-between">
                         <View>
-                            <Text className="text-center text-white font-bold text-4xl">
+                            <Text className="text-center text-white font-bold text-4xl mt-40">
                             Meditation
                         </Text>
-                        <Text className="text-center text-white font-regular text-2xl mt-3">
+                        <Text className="text-center text-white font-regular text-lg mt-2">
                             Simplifying Meditation for Everyone
                         </Text>
                         </View>
