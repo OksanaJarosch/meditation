@@ -4,7 +4,7 @@ import Content from './Content';
 
 const AppGradient = ({children, colors}: {children: any, colors: string[]}) => {
     return (
-        <LinearGradient colors={colors} className='flex-1 px-5 py-20'>
+        <LinearGradient colors={colors} className='flex-1 px-5 pt-20'>
             <Content>{children}</Content>
         </LinearGradient>
     )

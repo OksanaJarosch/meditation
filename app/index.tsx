@@ -28,7 +28,7 @@ export default function App() {
                         </Text>
                         </View>
 
-                        <CustomBtn onPress={() => router.push("/nature-meditate")} title="Get started" />
+                        <CustomBtn onPress={() => router.push("/nature-meditate")} title="Get started" containerStyles="mb-12"/>
                             
                         <StatusBar style='light'/>
                     </SafeAreaView>
